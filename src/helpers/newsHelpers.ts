@@ -1,5 +1,6 @@
 import { IUserProfile } from 'interfaces/user/IUserProfile';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const getPortfolioNews = (profile: IUserProfile) => {
   // if(!profile.cryptos && !profile.stocks) return 'AAPL, BTC';
   
