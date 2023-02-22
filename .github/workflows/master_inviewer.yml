@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: react.zip
+          path: build/
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,7 +57,5 @@ jobs:
           app-name: 'inviewer'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C9ED81BF0804C1EA1E669088681FD0A }}
-          package: react.zip
+          package: .
           
-      - name: Delete zip file
-        run: rm react.zip
