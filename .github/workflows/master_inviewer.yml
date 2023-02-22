@@ -29,7 +29,7 @@ jobs:
       
       # zip artifacts
       - name: Zip all files for upload between jobs
-        run: zip react.zip ./build/* # get files in build folder
+        run: zip react.zip ./build/* -r # get files in build folder
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
