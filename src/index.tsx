@@ -12,7 +12,7 @@ render(
   <Auth0Provider
     domain={process.env.REACT_APP_AUTH0_DOMAIN || 'dev-wf53ttsqsuq5jb6r.us.auth0.com'}
     clientId={process.env.REACT_APP_AUTH0_CLIENT_ID || '4zNgQagFYC4ft1uAYOqGbET1TgG31r5L'}
-    redirectUri='http://localhost:3000/profile'
+    redirectUri='https://inviewer.azurewebsites.net/profile'
   >
     <App />
   </Auth0Provider>,

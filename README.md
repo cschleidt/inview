@@ -1,5 +1,8 @@
 # Inview_client
 
+## Deployment
+https://www.tecforfun.com/misc/how-to-deploy-a-react-app-on-microsoft-azure/
+
 ## Overview
 Inview is financial portfolio tracker that allows users to perform a number of tasks including:
 
@@ -21,21 +24,4 @@ The following technologies were used in the client side of the application:
 * Trading View Widgets
 ---
 
-## Screenshots of FinWiz in action
-Portfolio
-![portfolio.png](./readmeScreenshots/portfolio.png)
 
-Portfolio value over time
-![portfolio_over_time.png](./readmeScreenshots/portfolio_over_time.png)
-
-Makeup of portfolio
-![makeup_portfolio.png](./readmeScreenshots/makeup_portfolio.png)
-
-Add a new investment
-![add_asset.png](./readmeScreenshots/add_asset.png)
-
-Browse markets (stocks/crypto/commodities/forex)
-![browse_stock.png](./readmeScreenshots/browse_stock.png)
-
-Stock Details
-![details.png](./readmeScreenshots/details.png)

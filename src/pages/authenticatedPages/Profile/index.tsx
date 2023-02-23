@@ -28,7 +28,7 @@ const Profile = () => {
       pollingInterval: 300000,
     });
 
-    if (!profileLoading) profile = userProfile; console.log(profile);
+    if (!profileLoading) profile = userProfile; console.log(userProfile);
   }
   
   // get stocks and crypto values or set as empty array
@@ -62,6 +62,7 @@ const Profile = () => {
     };
   });
 
+  console.log('Before');
   // if user or profile is loading display the spinner
   if (!user || !profile) return <Spinner />;
   console.log(profile);
