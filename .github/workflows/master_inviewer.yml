@@ -9,6 +9,10 @@ on:
       - master
   workflow_dispatch:
 
+env:
+  REACT_APP_INVIEW_REDIRCT_URL: ${{ secrets.REACT_APP_INVIEW_REDIRCT_URL }}
+  REACT_APP_INVIEW_SERVICE_URL: ${{ secrets.REACT_APP_INVIEW_SERVICE_URL }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
